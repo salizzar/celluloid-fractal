@@ -1,0 +1,11 @@
+# Defaults for celluloid-fractal initscript
+# sourced by /etc/init.d/celluloid-fractal
+# installed at /etc/default/celluloid-fractal by the maintainer scripts
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+APP_ENV='production'
+

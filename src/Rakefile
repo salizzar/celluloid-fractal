@@ -1,0 +1,5 @@
+# -*- encoding: UTF-8 -*-
+
+tasks_path = File.expand_path(File.join(File.dirname(__FILE__), 'lib', 'tasks'))
+Dir.glob(File.join(tasks_path, '**', '*.rake')).each { |f| load f }
+

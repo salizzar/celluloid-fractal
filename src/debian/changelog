@@ -1,0 +1,5 @@
+celluloid-fractal (1.0.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Marcelo Pinheiro <salizzar@gmail.com>  Sun, 29 Sep 2013 15:48:44 -0300

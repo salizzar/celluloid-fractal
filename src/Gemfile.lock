@@ -1,0 +1,51 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.5)
+    celluloid (0.15.1)
+      timers (~> 1.1.0)
+    chunky_png (1.2.8)
+    cookiejar (0.3.0)
+    em-http-request (1.1.1)
+      addressable (>= 2.3.4)
+      cookiejar
+      em-socksify (>= 0.3)
+      eventmachine (>= 1.0.3)
+      http_parser.rb (>= 0.6.0.beta.2)
+    em-socksify (0.3.0)
+      eventmachine (>= 1.0.0.beta.4)
+    eventmachine (1.0.3)
+    faye (1.0.0)
+      cookiejar (>= 0.3.0)
+      em-http-request (>= 0.3.0)
+      eventmachine (>= 0.12.0)
+      faye-websocket (>= 0.7.0)
+      multi_json (>= 1.0.0)
+      rack (>= 1.0.0)
+      websocket-driver (>= 0.3.0)
+    faye-websocket (0.7.0)
+      eventmachine (>= 0.12.0)
+      websocket-driver (>= 0.3.0)
+    fractals (1.2.2)
+      chunky_png (>= 0.6.0)
+    http_parser.rb (0.6.0.beta.2)
+    multi_json (1.8.0)
+    puma (2.6.0)
+      rack (>= 1.1, < 2.0)
+    rack (1.5.2)
+    rake (10.1.0)
+    rmagick (2.13.2)
+    timers (1.1.0)
+    websocket-driver (0.3.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  celluloid
+  faye
+  faye-websocket
+  fractals
+  puma
+  rake
+  rmagick

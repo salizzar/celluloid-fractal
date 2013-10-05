@@ -1,0 +1,10 @@
+source 'https://rubygems.org'
+
+gem 'rake'
+gem 'faye'
+gem 'faye-websocket'
+gem 'puma'
+gem 'celluloid'
+gem 'fractals'
+gem 'rmagick'
+

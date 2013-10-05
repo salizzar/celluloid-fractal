@@ -1,0 +1,6 @@
+usr/share/nginx/www/celluloid-fractal/log
+usr/share/nginx/www/celluloid-fractal/public/assets/images/fractals
+usr/share/nginx/www/celluloid-fractal/tmp/cache
+usr/share/nginx/www/celluloid-fractal/tmp/pids
+usr/share/nginx/www/celluloid-fractal/tmp/sessions
+usr/share/nginx/www/celluloid-fractal/tmp/sockets

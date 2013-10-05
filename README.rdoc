@@ -1,0 +1,19 @@
+== celluloid-fractal
+
+This app is a simple POC using Puma with Celluloid to dynamically generate fractals (using fractals gem). At this time, this app implements the following fractal algorithms:
+
+* Burning Ship
+* Feigenbaum
+* Mandelbrot
+* Seahorse Valley
+* Snowflake
+
+Debian packaging, monitoration and logrotate included.
+
+= TODO
+
+* Makefile to automate build
+* Fix celluloid fibers that are not freed
+* Better fractal generation (fractal gem is SLOW)
+
+= Marcelo Pinheiro

@@ -1,0 +1,6 @@
+check process celluloid-fractal with pidfile /var/run/celluloid-fractal.pid
+  group celluloid-fractal
+  start program = "/etc/init.d/celluloid-fractal start"
+  stop  program = "/etc/init.d/celluloid-fractal stop"
+  if failed host localhost port 8000 then restart
+

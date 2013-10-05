@@ -1,0 +1,14 @@
+Source: celluloid-fractal
+Section: web
+Priority: extra
+Maintainer: Marcelo Pinheiro <salizzar@gmail.com>
+Build-Depends: debhelper (>= 8.0.0)
+Standards-Version: 3.9.3
+Homepage: https://github.com/salizzar/celluloid-fractal
+
+Package: celluloid-fractal
+Architecture: amd64
+Depends: ruby, nginx, logrotate, monit, libmagickcore5
+Suggests: bundler
+Description: A example of celluloid running on Rails 4 with live controllers
+

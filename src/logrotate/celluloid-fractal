@@ -1,0 +1,11 @@
+/usr/share/nginx/www/celluloid-fractal/log/*.log {
+  daily
+  rotate 36500
+  dateext
+  copytruncate
+  delaycompress
+  compress
+  notifempty
+  missingok
+}
+

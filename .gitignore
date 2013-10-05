@@ -1,0 +1,12 @@
+*.DS_Store
+*.build
+*.changes
+*.deb
+*.dsc
+*.tar.gz
+*.debhelper
+*.substvars
+src/app/assets/images/fractals
+src/debian/celluloid-fractal
+src/debian/files
+src/public/assets
