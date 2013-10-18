@@ -2,7 +2,7 @@
 
 apt-get update > /dev/null
 
-apt-get install --yes --force-yes ruby-dev bundler libssl-dev libmagickcore-dev libmagickwand-dev
+apt-get install --yes --force-yes libssl-dev libmagickcore-dev libmagickwand-dev
 apt-get install --yes --force-yes dh-make dpkg-dev devscripts
 
 su - vagrant -c "cd /vagrant/src ; mkdir -p ~/vendor/bundle vendor ; ln -sf ~/vendor/bundle vendor/bundle"
