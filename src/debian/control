@@ -8,7 +8,6 @@ Homepage: https://github.com/salizzar/celluloid-fractal
 
 Package: celluloid-fractal
 Architecture: amd64
-Depends: ruby, nginx, logrotate, monit, libmagickcore5
-Suggests: bundler
-Description: A example of celluloid running on Rails 4 with live controllers
+Depends: nginx, logrotate, monit, libmagickcore5
+Description: A simple POC using Rack, Puma and Celluloid to dynamically create fractals.
 
