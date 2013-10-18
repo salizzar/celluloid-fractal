@@ -1,0 +1,4 @@
+#! /usr/bin/env bash
+
+su - vagrant -c "cd /vagrant/src ; bundle install --path vendor/bundle"
+
