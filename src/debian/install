@@ -2,7 +2,7 @@
 Gemfile Gemfile.lock          usr/share/nginx/www/celluloid-fractal
 Rakefile                      usr/share/nginx/www/celluloid-fractal
 config.ru                     usr/share/nginx/www/celluloid-fractal
-vendor/bundle/ruby            usr/share/nginx/www/celluloid-fractal/vendor/bundle
+vendor/bundle                 usr/share/nginx/www/celluloid-fractal/vendor
 logrotate/celluloid-fractal   etc/logrotate.d
 monit/celluloid-fractal       etc/monit/conf.d
 nginx/celluloid-fractal.conf  etc/nginx/conf.d
